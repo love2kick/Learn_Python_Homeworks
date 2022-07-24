@@ -1,0 +1,6 @@
+Run the module `modules/mod_a.py`. Check its result. Explain why does this happen.
+X from mod_c replaced in mod_b.
+Try to change x to a list `[1,2,3]`. Explain the result.
+Result is the same.
+Try to change import to `from x import *` where x - module names. Explain the result.
+Import order changed so the value of x imported in different order.
