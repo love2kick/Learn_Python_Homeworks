@@ -8,8 +8,8 @@ def remember_result(func):
 			print(f"Previous result = '{mem[0]}'")
 			mem.insert(1,func(*args))
 		else:
-			print(f"Previous result = '{mem[0]}'")
 			mem.insert(0,mem[1])
+			print(f"Previous result = '{mem[0]}'")
 			mem.insert(1,func(*args))
 	return inner 
 	
