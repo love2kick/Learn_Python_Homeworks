@@ -6,3 +6,4 @@ HW2 - Data types
 HW4 - Functions
 HW5 - Modules
 HW6 - Classes and inheritance
+HW7 - Exceptions and Iterators
