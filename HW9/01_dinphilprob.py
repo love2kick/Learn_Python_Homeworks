@@ -1,6 +1,5 @@
 import threading
 import time
-from threading import Lock
 
 class DiningPhilosophers(threading.Thread):
     hungry=True
